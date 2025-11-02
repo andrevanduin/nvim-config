@@ -11,3 +11,7 @@ vim.opt.smartcase = true -- Searhc case sensitive if we use capitals in our sear
 vim.opt.mouse = 'a' -- Enable all mouse interactions
 vim.opt.clipboard = 'unnamedplus' -- Enable copy and paste with vim registers
 
+vim.opt.nu = true
+vim.opt.relativenumber = true
+vim.opt.statuscolumn = '%s %l %r'
+
